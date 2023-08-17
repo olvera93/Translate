@@ -8,4 +8,5 @@ captures
 .cxx
 local.properties
 xcuserdata
+
 shared/src/commonMain/kotlin/com/olvera/translator_kmm/NetworkConstants.kt
