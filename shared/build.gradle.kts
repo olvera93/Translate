@@ -83,4 +83,12 @@ android {
     }
 }
 
+sqldelight {
+    database("TranslateDatabase") {
+        packageName = "com.olvera.translator_kmm.database"
+        sourceFolders = listOf("sqldelight")
+    }
+}
+
+
 
