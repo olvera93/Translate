@@ -5,7 +5,7 @@ import com.olvera.translator_kmm.R
 import com.olvera.translator_kmm.core.domain.language.Language
 import java.util.Locale
 
-actual class UILanguage(
+actual data class UILanguage(
     @DrawableRes val drawableRes: Int,
     actual val language: Language
 ) {
